@@ -13,3 +13,7 @@ Tailwind-powered design system for easy customization
 Modular React components for scalability
 
 Sections for About, Projects, Skills, and Contact
+
+## Preview
+
+![Alt text](./Preview.png "Savitzky-Golay Filter helps removing the noise and baseline wandering")
