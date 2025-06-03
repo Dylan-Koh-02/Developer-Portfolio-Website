@@ -16,4 +16,4 @@ Sections for About, Projects, Skills, and Contact
 
 ## Preview
 
-![Alt text](./Preview.png "Savitzky-Golay Filter helps removing the noise and baseline wandering")
+![Alt text](./src/Preview.png "Savitzky-Golay Filter helps removing the noise and baseline wandering")
