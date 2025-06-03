@@ -4,62 +4,37 @@ import { SiGithub } from "@icons-pack/react-simple-icons";
 const projects = [
   {
     id: 1,
-    title: "AI-based Automatic Myocardial Infarction Detection System",
-    description: "",
-    image: "/Projects/FYP/FYP_Result.jpg",
-    tags: [
-      "Python",
-      "PyTorch",
-      "LSTM",
-      "GRU",
-      "1D-CNN",
-      "Transformer",
-      "Signal Processing",
-      "ECG",
-      "Performance Tuning",
-      "Numpy",
-    ],
+    title: "Project 1",
+    description: "Description",
+    image: "#",
+    tags: ["XXX", "XXX"],
     demoUrl: "#",
     githubUrl: "#",
   },
   {
     id: 2,
-    title: "Hotel Data Analysis Project",
-    description: "",
-    image: "/Projects/DataScience/DS_Result.png",
-    tags: [
-      "Python",
-      "Matplotlib",
-      "Seaborn",
-      "Plotly",
-      "Exploratory Data Analysis",
-    ],
+    title: "Project 2",
+    description: "Description",
+    image: "#",
+    tags: ["XXX", "XXX"],
     demoUrl: "#",
     githubUrl: "#",
   },
   {
     id: 3,
-    title: "AWS-based Smart Campus Monitoring System",
-    description: "",
-    image: "/Projects/AWS/Architecture.png",
-    tags: [
-      "AWS(Amazon Web Service)",
-      "S3",
-      "Rekognition",
-      "IoT core",
-      "Serverless Lambda",
-      "Quicksight",
-      "Athena",
-    ],
+    title: "Project 3",
+    description: "Description",
+    image: "#",
+    tags: ["XXX", "XXX"],
     demoUrl: "#",
     githubUrl: "#",
   },
   {
     id: 4,
-    title: "Developer Portfolio",
-    description: "",
-    image: "/Projects/Web/Developer_Portfolio.png",
-    tags: ["HTML/CSS", "React", "Tailwind CSS"],
+    title: "Project 4",
+    description: "Description",
+    image: "#",
+    tags: ["XXX", "XXX"],
     demoUrl: "#",
     githubUrl: "#",
   },
@@ -75,8 +50,8 @@ export const ProjectsSection = () => {
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Here are some of my projects. Each project was carefully crafted with
-          attention to detail, performance and user experience.
+          Each project was carefully crafted with attention to detail,
+          performance and user experience.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -130,7 +105,12 @@ export const ProjectsSection = () => {
           ))}
         </div>
         <div className="text-center mt-12">
-          <a className="cosmic-button w-fit flex items-center mx-auto gap-2" href="https://github.com/Dylan-Koh-02">Check my Github <ArrowRight size={16}/></a>
+          <a
+            className="cosmic-button w-fit flex items-center mx-auto gap-2"
+            href="https://github.com/Dylan-Koh-02"
+          >
+            Check my Github <ArrowRight size={16} />
+          </a>
         </div>
       </div>
     </section>

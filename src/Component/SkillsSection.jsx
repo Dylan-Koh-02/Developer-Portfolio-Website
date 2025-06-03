@@ -3,26 +3,18 @@ import { cn } from "../lib/utils";
 
 const skills = [
   //Frontend
-  { name: "HTML/CSS", level: 95, category: "Frontend" },
-  { name: "JavaScript", level: 90, category: "Frontend" },
-  { name: "Tailwind CSS", level: 65, category: "Frontend" },
-  { name: "React" },
-  { name: "Next.js" },
+  { name: "HTML/CSS", level: 100, category: "Frontend" },
+  { name: "JavaScript", level: 100, category: "Frontend" },
 
   //Backend
-  { name: "Node.js", level: "", category: "Backend" },
-  { name: "Express.js", level: "", category: "Backend" },
-  { name: "MySQL", level: "", category: "Backend" },
-  { name: "PostgreSQL", level: "", category: "Backend" },
-  { name: "MongoDB", level: "", category: "Backend" },
+  { name: "Node.js", level: "100", category: "Backend" },
+  { name: "PostgreSQL", level: "100", category: "Backend" },
+  { name: "MongoDB", level: "100", category: "Backend" },
 
   //DevOps&Tools
-  { name: "Git/GitHub", level: "", category: "" },
-  { name: "Docker", level: "", category: "" },
-  { name: "Kubernetes", level: "", category: "" },
-  { name: "Visual Studio Code", level: "", category: "" },
-  { name: "Postman", level: "", category: "" },
-  { name: "Apifox", level: "", category: "" },
+  { name: "Git/GitHub", level: "100", category: "DevOps&Tools" },
+  { name: "Visual Studio Code", level: "100", category: "DevOps&Tools" },
+  { name: "Postman", level: "100", category: "DevOps&Tools" },
 ];
 
 const categories = ["All", "Frontend", "Backend", "DevOps&Tools"];
@@ -37,7 +29,7 @@ export const SkillsSection = () => {
     <section id="skills" className="py-24 px-4 relative bg-secondary/30 ">
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl  font-bold mb-12 text-center">
-          my <span className="text-primary">Skills</span>
+          My <span className="text-primary">Skills</span>
         </h2>
         <div className="flex flex-wrap justify-center gap-4 mb-12">
           {categories.map((category, key) => (
